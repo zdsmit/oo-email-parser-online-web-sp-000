@@ -11,7 +11,7 @@ class EmailAddressParser
 
   def parse
     parsed_list = @email_list.split(/, |\s|/)
-    final_list = parsed_list.uniq.flatten
+    final_list = parsed_list.uniq
     final_list
   end
 
